@@ -109,3 +109,28 @@ A Bruno collection named `chatroom_rest_api_collection` has been added for testi
 
 * SQLite database persists across restarts (`chat.db`).
 * Socket.IO enables real-time chat between connected clients in rooms.
+
+
+## ⚡ Future Enhancements
+
+* **JWT Authentication**
+  * Secure endpoints with token-based authentication.
+  * Only authenticated users can create/join chatrooms and send messages.
+
+* **User Roles**
+  * Admin, Moderator, and regular users for better control.
+
+* **Database Upgrade**
+  * Replace SQLite with PostgreSQL or MySQL for production use.
+
+* **File Sharing**
+  * Allow users to share files and images in chatrooms.
+
+* **Notifications**
+  * Real-time notifications for new messages.
+
+* **Frontend Integration**
+  * Build a React or Vue.js frontend to consume the API.
+
+* **Docker Support**
+  * Containerize the app for easier deployment.
