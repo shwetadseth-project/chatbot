@@ -1,0 +1,20 @@
+meta {
+  name: Send Message
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://127.0.0.1:8000/chatrooms/1/messages?sender=Alice&content=Hello
+  body: none
+  auth: inherit
+}
+
+params:query {
+  sender: Alice
+  content: Hello
+}
+
+settings {
+  encodeUrl: true
+}

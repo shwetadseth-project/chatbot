@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "chatroom",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

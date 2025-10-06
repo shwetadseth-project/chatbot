@@ -1,0 +1,15 @@
+meta {
+  name: Fetches messages in a chatroom
+  type: http
+  seq: 4
+}
+
+get {
+  url: http://127.0.0.1:8000/chatrooms/1/messages
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}
